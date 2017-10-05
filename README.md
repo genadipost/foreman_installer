@@ -30,7 +30,7 @@ Example Playbook
 
 ```yaml
 ---
-- hosts: masters
+- hosts: localhost
   roles:
     - { role: genadipost.epel_repositories }
     - { role: genadipost.puppet_repositories }
