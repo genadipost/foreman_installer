@@ -1,0 +1,27 @@
+galaxy_info:
+  author: Genadi Postrilko
+  description: Ansible role to configure Foreman yum repository
+  issue_tracker_url: https://github.com/genadipost/foreman_installer/issues
+  license: BSD
+  min_ansible_version: 2.3
+  github_branch: master
+  platforms:
+  - name: Fedora
+    versions:
+      - 25
+      - 26
+  - name: EL
+    versions:
+      - 7
+  galaxy_tags:
+    - theforeman
+    - foreman
+    - foreman_installer
+    - installer
+    - satellite
+    - satellite6
+    - sat6
+dependencies: 
+  - genadipost.epel_repositories
+  - genadipost.puppet_repositories
+  - genadipost.foreman_repositories
