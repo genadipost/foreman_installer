@@ -21,7 +21,3 @@ galaxy_info:
     - satellite
     - satellite6
     - sat6
-dependencies: 
-  - genadipost.epel_repositories
-  - genadipost.puppet_repositories
-  - genadipost.foreman_repositories
